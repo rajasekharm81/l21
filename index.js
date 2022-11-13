@@ -122,3 +122,7 @@ app.delete(`/deleteItem/:id`, async (request, response) => {
   const s = await Quote.deleteOne({ _id: req.id });
   console.log(s);
 });
+
+app.get("/", (req, res) => {
+  res.send("we are connected successfully");
+});
