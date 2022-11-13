@@ -124,5 +124,5 @@ app.delete(`/deleteItem/:id`, async (request, response) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("we are connected successfully");
+  res.send("we are connected successfull");
 });
